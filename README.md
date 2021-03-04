@@ -10,5 +10,5 @@ https://www.booking.com/
 https://www.portaldelacosta.com.ar/particulares.htm
 https://alquileresenlacosta.net/
 
-Grupo 5 (sin definir): Guillermina Pujals, Erick Rumbos, Andrés Ottonello
+Grupo 5 (DH-FenixWarriors): Guillermina Pujals, Erick Rumbos, Andrés Ottonello
 
