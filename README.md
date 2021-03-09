@@ -10,5 +10,7 @@ https://www.booking.com/
 https://www.portaldelacosta.com.ar/particulares.htm
 https://alquileresenlacosta.net/
 
+Elegimos estas páginas ya que se asemejan en cuanto al servicio que se pretende brindar en nuestra web. 
+
 Grupo 5 (DH-FenixWarriors): Guillermina Pujals, Erick Rumbos, Andrés Ottonello, Santino Caffarone.
 
