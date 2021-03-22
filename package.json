@@ -1,0 +1,23 @@
+{
+  "name": "Shop-Multiproveedor",
+  "version": "1.0.0",
+  "description": "Alquiler vacacional en la costa atlántica Argentina. Encontrá los mejores alquileres para tus vacaciones: casas, departamentos, cabañas, complejos y más!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillePujals/Shop-Multiproveedor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuillePujals/Shop-Multiproveedor/issues"
+  },
+  "homepage": "https://github.com/GuillePujals/Shop-Multiproveedor#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
