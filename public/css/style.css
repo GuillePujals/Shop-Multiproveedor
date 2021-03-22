@@ -3,5 +3,77 @@
 }
 
 body {
-    font-family:'Courier New', Courier, monospace;
+    font-family:Roboto;
+}
+
+.main-header{
+    background-color:  #26ea98;
+    padding: 20px;
+}
+
+.logo{
+    width: 70px;
+    margin-left: 10px;
+}
+
+.hamburger-button{
+    background-color:  #03264C;
+    color: white;
+    display: block;
+    max-width: 50px;
+    max-height: 30px;
+    padding: 2px 3px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+
+}
+
+.top-bar{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+.main-navbar{
+    display: none;
+    margin-top: 4px;
+}
+
+.main-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navbar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px; 
+}
+
+
+
+@media(min-width: 780px){
+    
+    .hamburger-button{
+        display: none;
+    }
+
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-navbar ul {
+        display: flex;
+    }
+
+    .main-navbar li {
+        margin: 0 5px;
+    }
+
 }
