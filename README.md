@@ -14,3 +14,5 @@ Elegimos estas páginas ya que se asemejan en cuanto al servicio que se pretende
 
 Grupo 5 (DH-FenixWarriors): Guillermina Pujals, Erick Rumbos, Andrés Ottonello, Santino Caffarone.
 
+TABLERO DE TRABAJO: https://trello.com/b/3dYqiz85/alquiler-casas-vacaciones
+
