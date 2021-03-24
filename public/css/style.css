@@ -7,46 +7,85 @@ body {
 }
 
 .main-header{
-    background-color:  #26ea98;
-    padding: 20px;
-}
-
-.logo{
-    width: 70px;
-    margin-left: 10px;
-}
-
-.hamburger-button{
-    background-color:  #03264C;
-    color: white;
-    display: block;
-    max-width: 50px;
-    max-height: 30px;
-    padding: 2px 3px;
-    border-radius: 4px;
-    text-align: center;
-    font-size: 18px;
-    margin: auto;
-
-}
-
-.top-bar{
-    display: flex;
-    justify-content: flex-start;
-    align-items:center;
-}
-
-.main-navbar{
-    display: none;
-    margin-top: 4px;
-}
-
-.main-navbar ul {
-    list-style: none;
+    background-color:  #8cc9ec;
+    padding: 0px;
     margin: 0;
-    padding: 0;
+    border: 0px;
+    max-height: 50px;
 }
+    .top-bar{
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+        padding: 0px;
+        margin: 10px;
+        border: 0px;
+        max-height: 40px;
+    }
+        .logo-completo{
+            display: flex;
+            align-items: center;
+            padding: 0px;
+            border: 0px;
+            margin: 0px 0px 0px 10px;
+            height: 80%;
 
+        }
+            .logo{
+                width: 15%;
+                height: 80%;
+                margin: 0px;
+                padding: 0px;
+                border: 0px;
+                background-color: brown;
+            }
+            .nombre-logo{
+                color: #db5959;
+                font-family: 'Lobster', cursive;
+                font-weight: lighter;
+                font-size: 1.5rem;
+                margin: 0px;
+            }
+        .accesos{
+            display: none;
+            
+        }
+            .accesos a{
+                color: #db5959;
+            }
+
+        .hamburger-button{
+            color:  #db5959;
+            background-color: 8cc9ec;     
+            padding: 2px 3px;
+            margin: 0px 0px 0px 10px;
+
+        }
+
+
+
+    .main-navbar{
+        display: none;
+        margin-top: 4px;
+    }
+
+        .main-navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+            .main-navbar a {
+                text-decoration: none;
+                color: #222222;
+                display: inline-block;
+                padding: 5px 0;
+                font-size: 17px; 
+            }
+
+.footer{
+
+<<<<<<< HEAD
 /* configurar cada vínculo del manú */
 .main-navbar a {
     text-decoration: none; /*que no tenga decoración */
@@ -54,27 +93,83 @@ body {
     display: inline-block; /* hace que no sean más línea, así puedo x ej. ponerle relleno*/
     padding: 5px 0;
     font-size: 17px; 
+=======
+>>>>>>> 1e1b36ddcaf017af3db5fbc502d05026cad1bcff
 }
+    .redes {
+        display: flex;
+        justify-content: space-around;
+        padding-left: 30vw;
+        padding-right: 30vw;
+        margin-top: 3%;
+    }
+        .youtube{
+            flex: 1 1 auto;
+        }
+            .youtube i{
+                color: #8cc9ec;
+            }
+        .facebook{
+            flex: 1 1 auto;
+        }
+            .facebook i{
+                color: #8cc9ec;
+            }
+        .instagram{
+            flex: 1 1 auto;
+        }
+            .instagram i{
+                color: #8cc9ec;
+            }
+        .twitter{
+            flex: 1 1 auto;
+        }
+            .twitter i{
+                color: #8cc9ec;
+            }
 
+        .menu-footer{
+            display: flex;
+            justify-content: center;
+            border-top: #8cc9ec solid 1px;
+            margin-top: 3%;
+        }
+            .menu-footer i{
+                color: #8cc9ec;
+            }
 
+        .legales{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+            .legales i{
+                display: flex;
+                align-items: center;
+            }
+                .legales p{
+                    font-family:Roboto;
+                }
 
-@media(min-width: 780px){
+@media (min-width:769px){
+    .accesos{
+        display: block;
+                
+    }
+}
+            
+@media(min-width: 1280px){
     
-    .hamburger-button{
-        display: none;
+    .logo{
+        width: 140px;
+        height: 100px;
+    }
+    .nombre-logo{
+
     }
 
-    .main-navbar{
-        display: flex;
-        justify-content: space-between;
-    }
+ 
 
-    .main-navbar ul {
-        display: flex;
-    }
-
-    .main-navbar li {
-        margin: 0 5px;
-    }
+   
 
 }
