@@ -47,10 +47,11 @@ body {
     padding: 0;
 }
 
+/* configurar cada vínculo del manú */
 .main-navbar a {
-    text-decoration: none;
+    text-decoration: none; /*que no tenga decoración */
     color: #222222;
-    display: inline-block;
+    display: inline-block; /* hace que no sean más línea, así puedo x ej. ponerle relleno*/
     padding: 5px 0;
     font-size: 17px; 
 }

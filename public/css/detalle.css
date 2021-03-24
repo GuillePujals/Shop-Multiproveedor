@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 2px;
+}
+.casas{
+    font-family:Roboto;
+}
+.busqueda{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    margin: 5px;
+    padding: 5px;
+}
+    .localidad{
+        border: solid 1px;
+        border-radius: 2px;
+        margin-bottom: 5px;
+        background-color: #ebebeb;
+        color: #666;
+    }
+    .desde-hasta{
+        border: solid 1px;
+        border-radius: 2px;
+        margin-bottom: 5px;
+        background-color: #ebebeb;
+        color: #666;
+    }
+    .personas{
+        border: solid 1px;
+        border-radius: 2px;
+        margin-bottom: 5px;
+        background-color: #ebebeb;
+        color: #666;    
+    }
+.casa{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    margin: 5px;
+    padding: 5px;
+}
+    .img-casa{
+        width: 200px;
+        height: 170px;
+    }
+    .casas .lista-casas .casa  i{
+        font-size: 16px;
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        color:  #39b54a;
+        border: 1px solid #39b54a;
+        border-radius: 50%;
+        background-color: #FFF;
+        right: 20px;
+        top: -15px;
+    }
+    .descripcion{
+            display: flex;
+            flex: 2 1 auto;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            margin-top: 1px;
+            padding: 0px 15px;
+            border-top:#ebebeb solid 1px;
+        }
+        .precio{
+            flex: 1 1 20%;
+            font-size: 16px;
+            color:  #39b54a;
+        }
+        .direccion{
+            flex: 1 1 60%;
+            font-size: 16px;
+        }
+        .titulo{
+            flex: 1 1 100%;
+            font-size: 20px;
+        }
+
+
+@media(min-width: 768px){
+        .casas{
+            display: flex;
+            flex-flow: row wrap;
+        }
+            .busqueda{
+                flex: 1 1 100%;
+            }
+            .lista-casas{
+                display: flex;
+                flex: 2 1 auto;
+                flex-flow: row wrap;
+                justify-content: space-between;
+            }
+                .casa{
+                    flex: 1 1 35%;
+                }
+}
+
+@media(min-width: 1200px){
+    .casas{
+        display: flex;
+        flex-flow: row wrap;
+    }
+        .busqueda{
+            display: flex;
+            flex: 3 1 auto;
+            justify-content: space-between;
+        }
+            .localidad{
+                flex: 1 1 20%;
+                margin: 3px;
+            }
+            .desde-hasta{
+                flex: 1 1 20%;
+                margin: 3px;
+            }
+            .personas{
+                flex: 1 1 20%;
+                margin: 3px;
+            }
+        .lista-casas{
+            display: flex;
+            flex: 3 1 auto;
+            flex-flow: row wrap;
+            justify-content: space-between;
+        }
+            .casa{
+                flex: 1 1 25%;
+            }
+}
