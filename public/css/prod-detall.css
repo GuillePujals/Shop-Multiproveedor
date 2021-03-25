@@ -1,0 +1,127 @@
+.detalle{
+    background-color: lightgray;
+    font-family: Roboto;
+    margin:0px;
+    display: inline;
+}
+
+.container{
+    margin: auto;
+    background-color: white;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+ul , li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.slider{
+    position: relative;
+    width: 95%;
+    height: 300px;
+    text-align: center;
+}
+
+ul.slider li {
+    position: absolute;/*Pone todos los elementos de la lista en el mismo lugar*/
+    left: 0;
+    top:0;
+    opacity: 0; /*Todos se ocultan*/
+    width: initial; /*el mismo que el padre*/
+    height: initial;
+    background-color: white;
+    transition: opacity .5s;/*Hace una pequeña transición, no se hace de golpe el cambio*/
+}
+
+/*que las imagenes queden en el slider*/
+ul.slider li img{
+    width: 340px;
+    height: 300px;
+    object-fit: cover;/*Para que no se deforme la imagen*/
+}
+
+/*Mostramos los elementos*/
+ul.slider li:first-child{
+    opacity: 1;
+}
+
+ul.slider li:target{
+    opacity: 1;
+}
+
+.menu{
+    text-align: center;
+    margin: 20px;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+.datos{
+    border-top:#ebebeb solid 2px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+}
+    .resumen{
+        flex: 1 1 70%;
+
+    }
+    .condiciones{
+        flex: 1 1 27%;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        margin: 5px;
+    }
+        .condiciones p{
+            font-size: 12px;
+        }
+        .precio-tot{
+            color:  #39b54a;
+            font-weight: 700;
+        }
+.ubicacion{
+    border-top:#ebebeb solid 2px;
+    padding: 5px;
+}
+    .ubicacion iframe{
+        width: 100%;
+        height: 300px;
+    }
+
+.conditions{
+    border-top:#ebebeb solid 2px;
+    padding: 5px;
+
+}
+@media(min-width: 860px){
+    ul.slider li img{
+        width: 340px;
+        height: 300px;
+        padding-left: 250px;
+    }
+       
+}
+
+@media(min-width: 1000px){
+    ul.slider li img{
+        padding-left: 400px;
+    }
+       
+}
